@@ -8,13 +8,15 @@
     <!-- Tailwind and daisiui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link Custom css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Header Section start -->
     <header class="mb-10">
         <!-- navbar section -->
-        <section class="container mx-auto">
+        <section class="myContainer mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -59,7 +61,7 @@
             </div>
         </section>
         <!-- Header Banner Section -->
-        <section class="container mx-auto mt-10 lg:relative">
+        <section class="myContainer mx-auto mt-10 lg:relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
@@ -105,7 +107,7 @@
     <!-- Main Section Start -->
     <main>
         <!-- Professional Hockeys Club section start -->
-        <section class="container mx-auto">
+        <section class="myContainer mx-auto">
             <div class="border-t border-b border-dotted py-9">
                 <div class="max-w-2xl mx-auto text-center">
                     <h3 class="text-3xl font-bold">Professional Hockeys Club</h3>
@@ -130,7 +132,8 @@
                     </div>
                 </div>
                 <div class="card sm:w-full bg-base-100">
-                    <div class="radial-progress text-yellow-600 mx-auto" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress text-yellow-600 mx-auto" style="--value:90;" role="progressbar">90%
+                    </div>
                     <div class="card-body items-center text-center">
                         <h4 class="text-xl font-semibold">Senior Player</h4>
                         <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -147,6 +150,64 @@
         </section>
 
         <!-- Professional Hockeys Club section end -->
+        <!-- Program section start -->
+        <section class="myContainer mx-auto">
+            <div class="border-t border-b border-dotted py-9">
+                <div class="max-w-2xl mx-auto text-center">
+                    <h3 class="text-3xl font-bold">Program Sections</h3>
+                    <p class="text-xl">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                        dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+            <!-- Program card section -->
+            <div class="my-10 grid lg:grid-cols-2 sm:grid-cols-1 gap-3 ">
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="w-full" src="./Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-end">
+                        <div>
+                            <h2 class="card-title">Junior Program</h2>
+                            <p class="py-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn bg-orange-700 border-none text-white">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="w-full" src="./Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-end">
+                        <div>
+                            <h2 class="card-title">Teenager Program</h2>
+                            <p class="py-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn bg-orange-700 border-none text-white">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card bg-base-100 shadow-xl image-full max-h-screen">
+                    <figure><img class="w-full" src="./Images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-end">
+                        <div>
+                            <h2 class="card-title">Professional Program</h2>
+                            <p class="py-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn bg-orange-700 border-none text-white">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Program section end -->
     </main>
     <!-- Main Section end -->
 </body>
