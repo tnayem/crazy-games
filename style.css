@@ -2,3 +2,6 @@
     width: 85%;
     margin: auto;
 }
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+}
